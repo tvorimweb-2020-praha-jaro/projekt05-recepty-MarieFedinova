@@ -37,3 +37,149 @@ body {
 /* ------------------------------- */
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
+
+body {
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+.kategorie,
+.komentare {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nazev {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.velky {
+    font-size: 28px;
+    width: 300px;
+}
+
+.maly {
+    min-height: 90px;
+}
+
+.recept {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 1px;
+}
+
+.komentare {
+    position: absolute;
+    margin: 0;
+    top: 10px;
+    right: 10px;
+}
+
+.hlavni {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/salat.jpg);
+    min-height: 200px;
+}
+
+.chlebicek {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/chlebicek.jpg);
+}
+
+.tacos {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/tacos.jpg);
+}
+
+.cizrna {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/cizrna.jpg);
+}
+
+.burger {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/burger.jpg);
+}
+
+@media (min-width: 480px) {
+    .hlavni {
+        min-height: 250px;
+    }
+    .nazev {
+        font-size: 22px;
+    }
+    .velky {
+        font-size: 36px;
+        width: 100%;
+    }
+    .maly {
+        min-height: 150px;
+        float: left;
+        width: 49.9%;
+    }
+    .recept {
+        padding: 20px;
+    }
+    .komentare {
+        top: 20px;
+        right: 20px;
+    }
+    .nazev {
+        bottom: 20px;
+        left: 20px;
+    }
+    .chlebicek,
+    .cizrna {
+        border-right: 1px solid white;
+    }
+    
+}
+
+@media (min-width: 860px) {
+    .recepty {
+        display: flex;
+    }
+    .hlavni {
+        min-height: 400px;
+        width: 50%;
+        border-right: 1px solid white;
+    }
+    .nazev {
+        font-size: 28px;
+        width: 80%;
+    }
+    .velky {
+        font-size: 48px;
+        width: 70%;
+    }
+    .vedlejsi {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    .maly {
+        min-height: 200px;
+        width: 49%;
+    }
+    .recept {
+        padding: 20px;
+    }
+    .komentare {
+        top: 20px;
+        right: 20px;
+    }
+    .nazev {
+        bottom: 20px;
+        left: 20px;
+    }
+    
+}
+
+
+
+
